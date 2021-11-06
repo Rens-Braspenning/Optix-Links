@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://rensbraspenning.sharepoint.com/sites/administratie/Lists/Huuropzeggingen/AllItems.aspx",
+      "fieldCustomizers": {
+        "OptixCaseLink": {
+          "id": "22abe866-84fa-4fb8-bd70-ad9908464319",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    },
+    "optixCaseLink": {
+      "pageUrl": "https://rensbraspenning.sharepoint.com/sites/administratie/",
+      "fieldCustomizers": {
+        "OptixCaseLink": {
+          "id": "22abe866-84fa-4fb8-bd70-ad9908464319",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}
